@@ -24,6 +24,14 @@ class App extends Component {
 }
 ```
 
+### Docs
+
+* TODO ...
+
+### Tests
+
+* TODO ...
+
 ### License
 MIT
 

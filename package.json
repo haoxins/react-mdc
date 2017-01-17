@@ -1,6 +1,6 @@
 {
   "name": "react-mdc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "react-mdc is some react components build on top of material-components/material-components-web",
   "main": "build/index.js",
   "scripts": {
@@ -25,27 +25,41 @@
   "author": "haoxin",
   "license": "MIT",
   "dependencies": {
-    "@material/button": "^0.1.0",
-    "@material/textfield": "^0.1.0",
-    "classnames": "^2.2.5"
+    "@material/button": "^0.1.1",
+    "@material/card": "^0.1.1",
+    "@material/checkbox": "^0.1.1",
+    "@material/drawer": "^0.1.1",
+    "@material/fab": "^0.2.0",
+    "@material/form-field": "^0.1.0",
+    "@material/icon-toggle": "^0.1.1",
+    "@material/list": "^0.1.0",
+    "@material/menu": "^0.1.1",
+    "@material/radio": "^0.1.1",
+    "@material/select": "^0.1.1",
+    "@material/snackbar": "^0.1.1",
+    "@material/textfield": "^0.1.1",
+    "@material/typography": "^0.1.0",
+    "classnames": "^2.2.5",
+    "lodash.uniqueid": "^4.0.1"
   },
   "devDependencies": {
     "babel-cli": "6",
     "babel-core": "6",
     "babel-eslint": "7",
     "babel-loader": "6",
-    "babel-plugin-transform-class-properties": "6",
-    "babel-plugin-transform-object-rest-spread": "6",
     "babel-preset-es2015": "6",
     "babel-preset-react": "6",
-    "css-loader": "^0.26.1",
+    "babel-preset-stage-2": "6",
+    "css-loader": "0",
     "eslint": "3",
     "eslint-config-bx-bsd": "1",
     "eslint-plugin-react": "6",
+    "jest": "18",
+    "next": "1",
     "react": "15",
     "react-dom": "15",
-    "style-loader": "^0.13.1",
-    "webpack": "^2.2.0-rc.2"
+    "style-loader": "0",
+    "webpack": "2"
   },
   "eslintConfig": {
     "extends": [

@@ -4,6 +4,7 @@ import { render } from 'react-dom'
 
 import {
   CheckboxLabel,
+  Elevation,
   Checkbox,
   Button,
   Fab
@@ -63,6 +64,14 @@ class App extends Component {
           <Fab icon='star' plain />
           <Fab icon='star' plain mini />
           <Fab icon='star' disabled />
+        </section>
+        <section>
+          <Elevation z={12}>
+            <Button>12dp</Button>
+          </Elevation>
+          <Elevation z={12} translate>
+            <Button>12dp</Button>
+          </Elevation>
         </section>
       </article>
     )

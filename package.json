@@ -1,6 +1,6 @@
 {
   "name": "react-mdc",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "react-mdc is some react components build on top of material-components/material-components-web",
   "main": "build/index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "@material/card": "^0.1.1",
     "@material/checkbox": "^0.1.1",
     "@material/drawer": "^0.1.1",
+    "@material/elevation": "^0.1.1",
     "@material/fab": "^0.2.0",
     "@material/form-field": "^0.1.0",
     "@material/icon-toggle": "^0.1.1",

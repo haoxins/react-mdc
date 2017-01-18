@@ -5,7 +5,8 @@ import { render } from 'react-dom'
 import {
   CheckboxLabel,
   Checkbox,
-  Button
+  Button,
+  Fab
 } from '../'
 
 class App extends Component {
@@ -55,6 +56,13 @@ class App extends Component {
               check
             </button>
           </div>
+        </section>
+        <section>
+          <Fab icon='favorite' />
+          <Fab icon='star' mini />
+          <Fab icon='star' plain />
+          <Fab icon='star' plain mini />
+          <Fab icon='star' disabled />
         </section>
       </article>
     )

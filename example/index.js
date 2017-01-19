@@ -4,6 +4,7 @@ import { render } from 'react-dom'
 
 import {
   CheckboxLabel,
+  IconToggle,
   Elevation,
   Checkbox,
   Button,
@@ -14,13 +15,17 @@ class App extends Component {
 
   state = {
     indeterminate: false,
-    checked: true
+    checked: true,
+
+    togglePressed: true
   }
 
   render() {
     const {
       indeterminate,
-      checked
+      checked,
+
+      togglePressed
     } = this.state
 
     return (
@@ -64,6 +69,15 @@ class App extends Component {
           <Fab icon='star' plain />
           <Fab icon='star' plain mini />
           <Fab icon='star' disabled />
+        </section>
+        <section>
+          <IconToggle data-toggle-on={{label: 'Remove from favorites', content: 'favorite'}}
+            data-toggle-off={{label: 'Add to favorites', content: 'favorite_border'}}
+            pressed={togglePressed}
+            onChange={isOn => this.setState({togglePressed: isOn})} />
+          <IconToggle data-toggle-on={{label: 'Remove from favorites', content: 'favorite'}}
+            data-toggle-off={{label: 'Add to favorites', content: 'favorite_border'}}
+            pressed={true} disabled />
         </section>
         <section>
           <Elevation z={12}>

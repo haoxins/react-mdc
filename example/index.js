@@ -8,6 +8,7 @@ import {
   Elevation,
   Checkbox,
   Button,
+  Radio,
   Fab
 } from '../'
 
@@ -17,7 +18,9 @@ class App extends Component {
     indeterminate: false,
     checked: true,
 
-    togglePressed: true
+    togglePressed: true,
+
+    checkedRadio: ''
   }
 
   render() {
@@ -25,7 +28,9 @@ class App extends Component {
       indeterminate,
       checked,
 
-      togglePressed
+      togglePressed,
+
+      checkedRadio
     } = this.state
 
     return (
@@ -40,6 +45,29 @@ class App extends Component {
           <Button dense onClick={
             () => console.info('dense')
           }>dense</Button>
+        </section>
+
+        <section>
+          <Radio name='radio' checked={checkedRadio === 'radio-01'}
+            onChange={checked => {
+              if (checked) {
+                this.setState({checkedRadio: 'radio-01'})
+              }
+            }} />
+          <Radio name='radio' checked={checkedRadio === 'radio-02'}
+            onChange={checked => {
+              if (checked) {
+                this.setState({checkedRadio: 'radio-02'})
+              }
+            }} />
+          <Radio name='radio' checked={checkedRadio === 'radio-03'}
+            onChange={checked => {
+              if (checked) {
+                this.setState({checkedRadio: 'radio-03'})
+              }
+            }} />
+          <Radio name='disabled-radio' disabled />
+          <Radio name='disabled-radio' checked disabled />
         </section>
 
         <section>

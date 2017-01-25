@@ -11,7 +11,7 @@
 - [x] icon-toggle
 - [ ] list
 - [ ] menu
-- [ ] radio
+- [x] radio
 - [ ] ripple
 - [ ] rtl
 - [ ] select

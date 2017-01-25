@@ -1,6 +1,6 @@
 {
   "name": "react-mdc",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "react-mdc is some react components build on top of material-components/material-components-web",
   "main": "build/index.js",
   "scripts": {

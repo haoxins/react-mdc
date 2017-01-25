@@ -7,7 +7,8 @@
 
 ### react-mdc
 
-* react-mdc is some react components build on top of [material-components/material-components-web](https://github.com/material-components/material-components-web)
+* `react-mdc` is some react components build on top of [material-components/material-components-web](https://github.com/material-components/material-components-web)
+* [docs](https://haoxins.github.io/react-mdc)
 
 ```jsx
 import React, { Component } from 'react'
@@ -23,10 +24,6 @@ class App extends Component {
   }
 }
 ```
-
-### Docs
-
-* TODO ...
 
 ### Tests
 

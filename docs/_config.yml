@@ -1,1 +1,18 @@
 theme: jekyll-theme-cayman
+
+encoding: utf-8
+
+author:
+  name: haoxin
+  github: haoxins
+  email: haoxins@icloud.com
+
+gems:
+  - jekyll-pandoc
+
+markdown: pandoc
+markdown_ext: md
+pandoc:
+  extensions:
+    - smart
+    - mathjax

@@ -1,7 +1,7 @@
 
 [![NPM version][npm-img]][npm-url]
-[![Build status][travis-img]][travis-url]
-[![Test coverage][coveralls-img]][coveralls-url]
+<!--[![Build status][travis-img]][travis-url]-->
+<!--[![Test coverage][coveralls-img]][coveralls-url]-->
 [![License][license-img]][license-url]
 [![Dependency status][david-img]][david-url]
 

@@ -7,6 +7,7 @@ import {
   IconToggle,
   Elevation,
   Checkbox,
+  Snackbar,
   Button,
   Radio,
   Fab
@@ -18,6 +19,9 @@ class App extends Component {
     indeterminate: false,
     checked: true,
 
+    snackbar2Hidden: true,
+    snackbarHidden: true,
+
     togglePressed: true,
 
     checkedRadio: ''
@@ -27,6 +31,9 @@ class App extends Component {
     const {
       indeterminate,
       checked,
+
+      snackbar2Hidden,
+      snackbarHidden,
 
       togglePressed,
 
@@ -106,6 +113,24 @@ class App extends Component {
           <IconToggle data-toggle-on={{label: 'Remove from favorites', content: 'favorite'}}
             data-toggle-off={{label: 'Add to favorites', content: 'favorite_border'}}
             pressed={true} disabled />
+        </section>
+        <section>
+          <Snackbar hidden={snackbarHidden} message='hello snackbar 1' />
+          <Snackbar hidden={snackbar2Hidden} message='hello snackbar 2'
+            actionText='DONE' actionHidden={false} multiline
+            actionHandler={() => console.info('action handler done')} />
+          <button onClick={() => {
+            this.setState({snackbarHidden: false})
+            setTimeout(() => {
+              this.setState({snackbarHidden: true})
+            }, 1000)
+          }}>show snackbar</button>
+          <button onClick={() => {
+            this.setState({snackbar2Hidden: false})
+            setTimeout(() => {
+              this.setState({snackbar2Hidden: true})
+            }, 1000)
+          }}>show snackbar with action</button>
         </section>
         <section>
           <Elevation z={12}>

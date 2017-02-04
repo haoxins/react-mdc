@@ -15,5 +15,5 @@
 - [ ] ripple
 - [ ] rtl
 - [ ] select
-- [ ] snackbar
+- [x] snackbar
 - [x] textfield

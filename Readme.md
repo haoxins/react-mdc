@@ -1,7 +1,8 @@
 
-[![NPM version][npm-img]][npm-url]
 <!--[![Build status][travis-img]][travis-url]-->
 <!--[![Test coverage][coveralls-img]][coveralls-url]-->
+
+[![NPM version][npm-img]][npm-url]
 [![License][license-img]][license-url]
 [![Dependency status][david-img]][david-url]
 
@@ -10,20 +11,24 @@
 * `react-mdc` is some react components build on top of [material-components/material-components-web](https://github.com/material-components/material-components-web)
 * [docs](https://haoxins.github.io/react-mdc)
 
-```jsx
-import React, { Component } from 'react'
-import { Button } from 'react-mdc'
+### Implemented components
 
-class App extends Component {
-  render() {
-    return (
-      <main>
-        <Button raised>hello</Button>
-      </main>
-    )
-  }
-}
-```
+- [x] button
+- [ ] card
+- [x] checkbox
+- [ ] drawer
+- [x] elevation
+- [x] fab
+- [x] form-field
+- [x] icon-toggle
+- [ ] list
+- [ ] menu
+- [x] radio
+- [ ] ripple
+- [ ] select
+- [x] snackbar
+- [ ] switch
+- [x] textfield
 
 ### Tests
 

@@ -1,19 +1,7 @@
 
-### Implemented components
+### react-mdc
 
-- [x] button
-- [ ] card
-- [x] checkbox
-- [ ] drawer
-- [x] elevation
-- [x] fab
-- [x] form-field
-- [x] icon-toggle
-- [ ] list
-- [ ] menu
-- [x] radio
-- [ ] ripple
-- [ ] rtl
-- [ ] select
-- [x] snackbar
-- [x] textfield
+`react-mdc` is some react components build on top of [material-components/material-components-web](https://github.com/material-components/material-components-web)
+
+### License
+MIT

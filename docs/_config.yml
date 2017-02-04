@@ -10,3 +10,10 @@ author:
 highlighter: rouge
 
 markdown: kramdown
+
+defaults:
+- scope:
+    path: components
+    type: pages
+  values:
+    sectionid: components

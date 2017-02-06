@@ -9,30 +9,25 @@
 ### react-mdc
 
 * `react-mdc` is some react components build on top of [material-components/material-components-web](https://github.com/material-components/material-components-web)
-* [docs](https://haoxins.github.io/react-mdc)
+* [Documents](https://haoxins.github.io/react-mdc)
 
 ### Implemented components
 
-- [x] button
-- [ ] card
-- [x] checkbox
-- [ ] drawer
-- [x] elevation
-- [x] fab
-- [x] form-field
-- [x] icon-toggle
-- [ ] list
-- [ ] menu
-- [x] radio
-- [ ] ripple
-- [ ] select
-- [x] snackbar
-- [ ] switch
-- [x] textfield
-
-### Tests
-
-* TODO ...
+- [x] [Button](https://haoxins.github.io/react-mdc/components/button)
+- [ ] [Card](https://haoxins.github.io/react-mdc/components/card)
+- [x] [Checkbox](https://haoxins.github.io/react-mdc/components/checkbox)
+- [ ] [Drawer](https://haoxins.github.io/react-mdc/components/drawer)
+- [x] [Elevation](https://haoxins.github.io/react-mdc/components/elevation)
+- [x] [Fab](https://haoxins.github.io/react-mdc/components/fab)
+- [x] [FormField](https://haoxins.github.io/react-mdc/components/form-field)
+- [x] [IconToggle](https://haoxins.github.io/react-mdc/components/icon-toggle)
+- [ ] [List](https://haoxins.github.io/react-mdc/components/list)
+- [ ] [Menu](https://haoxins.github.io/react-mdc/components/menu)
+- [x] [Radio](https://haoxins.github.io/react-mdc/components/radio)
+- [ ] [Select](https://haoxins.github.io/react-mdc/components/select)
+- [x] [snackbar](https://haoxins.github.io/react-mdc/components/snackbar)
+- [ ] [switch](https://haoxins.github.io/react-mdc/components/switch)
+- [x] [Textfield](https://haoxins.github.io/react-mdc/components/textfield)
 
 ### License
 MIT

@@ -1,4 +1,3 @@
-
 ---
 id: button
 title: button
@@ -6,16 +5,18 @@ permalink: components/button.html
 ---
 
 ```jsx
-import React, { Component } from 'react'
-import { Button } from 'react-mdc'
-
-class App extends Component {
-  render() {
-    return (
-      <main>
-        <Button raised>hello</Button>
-      </main>
-    )
-  }
-}
+<Button disabled compact>compact</Button>
+<Button raised primary>raised</Button>
+<Button compact>compact</Button>
+<Button primary>primary</Button>
+<Button accent>accent</Button>
+<Button dense>dense</Button>
 ```
+
+### Props
+
+| Property | Effect                        | Remarks  | Type    |
+| -------- | ----------------------------- | -------- | ------- |
+| raised   | Applies `raised` button style | Optional | Boolean |
+| primary  | Applies `primary` colors      | Optional | Boolean |
+| accent   | Applies `accent` colors       | Optional | Boolean |

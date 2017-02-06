@@ -1,4 +1,3 @@
-
 ---
 id: checkbox
 title: checkbox

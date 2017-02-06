@@ -37,6 +37,7 @@
     "@material/list": "^0.2.0",
     "@material/menu": "^0.1.2",
     "@material/radio": "^0.1.2",
+    "@material/ripple": "^0.1.2",
     "@material/select": "^0.2.0",
     "@material/snackbar": "^0.1.2",
     "@material/textfield": "^0.2.0",

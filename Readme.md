@@ -26,7 +26,7 @@
 - [x] [Radio](https://haoxins.github.io/react-mdc/components/radio)
 - [ ] [Select](https://haoxins.github.io/react-mdc/components/select)
 - [x] [snackbar](https://haoxins.github.io/react-mdc/components/snackbar)
-- [ ] [switch](https://haoxins.github.io/react-mdc/components/switch)
+- [x] [switch](https://haoxins.github.io/react-mdc/components/switch)
 - [x] [Textfield](https://haoxins.github.io/react-mdc/components/textfield)
 
 ### License

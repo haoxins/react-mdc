@@ -4,10 +4,12 @@ import { render } from 'react-dom'
 
 import {
   CheckboxLabel,
+  SwitchLabel,
   IconToggle,
   Elevation,
   Checkbox,
   Snackbar,
+  Switch,
   Button,
   Radio,
   Fab
@@ -98,6 +100,19 @@ class App extends Component {
             </button>
           </div>
         </section>
+
+        <section>
+          <div>
+            <Switch id='switch-example' />
+            <SwitchLabel for='switch-example'>
+              switch example
+            </SwitchLabel>
+          </div>
+          <div>
+            <Switch disabled />
+          </div>
+        </section>
+
         <section>
           <Fab icon='favorite' />
           <Fab icon='star' mini />

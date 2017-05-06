@@ -46,7 +46,10 @@
     "@material/typography": "^0.2.0",
     "classnames": "^2.2.5",
     "lodash.pickby": "^4.6.0",
-    "lodash.uniqueid": "^4.0.1"
+    "lodash.uniqueid": "^4.0.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel-cli": "6",
@@ -62,8 +65,6 @@
     "eslint-plugin-react": "6",
     "jest": "18",
     "next": "1",
-    "react": "15",
-    "react-dom": "15",
     "style-loader": "0",
     "webpack": "2"
   },

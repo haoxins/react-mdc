@@ -7,6 +7,8 @@ import {
   SwitchLabel,
   IconToggle,
   Elevation,
+  FormField,
+  TextField,
   Checkbox,
   Snackbar,
   Switch,
@@ -39,7 +41,7 @@ class App extends Component {
 
       togglePressed,
 
-      checkedRadio
+      checkedRadio,
     } = this.state
 
     return (
@@ -77,6 +79,31 @@ class App extends Component {
             }} />
           <Radio name='disabled-radio' disabled />
           <Radio name='disabled-radio' checked disabled />
+        </section>
+
+        <section>
+          <TextField id='text-01' placeholder='hello' fullwidth />
+
+          <TextField id='text-02' placeholder='hello' multiline />
+
+          <TextField id='text-03' placeholder='hello' disabled />
+
+          <TextField id='text-04' placeholder='hello' minLength={8}
+            helptextPersistent helptext='Hi, here.' />
+
+          <FormField>
+            <TextField id='text-05' placeholder='hello' />
+          </FormField>
+
+          <FormField alignEnd>
+            <TextField id='text-06' placeholder='hello' minLength={8}
+              helptext='Hi, here.' />
+          </FormField>
+
+          <FormField dir='rtl'>
+            <TextField id='text-07' placeholder='hello' minLength={8}
+              helptext='Hi, here.' />
+          </FormField>
         </section>
 
         <section>
@@ -120,6 +147,7 @@ class App extends Component {
           <Fab icon='star' plain mini />
           <Fab icon='star' disabled />
         </section>
+
         <section>
           <IconToggle data-toggle-on={{label: 'Remove from favorites', content: 'favorite'}}
             data-toggle-off={{label: 'Add to favorites', content: 'favorite_border'}}
@@ -129,6 +157,7 @@ class App extends Component {
             data-toggle-off={{label: 'Add to favorites', content: 'favorite_border'}}
             pressed={true} disabled />
         </section>
+
         <section>
           <Snackbar hidden={snackbarHidden} message='hello snackbar 1' />
           <Snackbar hidden={snackbar2Hidden} message='hello snackbar 2'
